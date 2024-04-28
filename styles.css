@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(to bottom right, #FFC371, #FF5F6D);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+.container:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+.btn-generate {
+  width: 100%;
+  margin-top: 20px;
+}
